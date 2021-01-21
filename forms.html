@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORMS</title>
+        <style>
+            h2 {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>-----------APPLICANT INFORMATION---------------</h2>
+        <fieldset>
+            <legend>personal</legend>
+        <form action="/action.php" target="_blank" method="POST" autocomplete="on" novalidate>
+            <label for="fname">First name:</label>  
+            <input type="text" id="fname" name="fname" placeholder="first name" required autofocus> 
+            <label for="mname">Middle name:</label>   
+            <input type="text" id="mname" name="mname" placeholder="middle name">  
+            <label for="lname">Last name:</label>  
+            <input type="text" id="lname" name="lname" placeholder="last name" required>  <br><br>
+            <label for="gender">Gender:</label> 
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <label for="nname">Nick name:</label>
+            <input type="text" id="nname" name="nname" placeholder="nick name">
+            <label for="oname">Aka/Other Name:</label>
+            <input type="text" id="oname" name="oname" placeholder="other name">
+            <label for="status">Civil status:</label> 
+            <select id="status" name="status">
+                <option value="Married">Married</option>
+                <option value="single">single</option>
+                <option value="divorced">Divorced</option>
+                <option value="widowed">Widowed</option>
+            </select>  <br><br>
+            <label for="Bdate">Birth date:</label>
+            <input type="datetime-local" id="Bdate" name="Bdate" required>
+            <label for="bplace">Birth place:</label>
+            <input type="text" id="bplace" name="bplace" placeholder="birth place" required>
+            <label for="citizen">citizen ship:</label>
+            <select id="citizen" name="citizen" multiple>
+                <option value="India">India</option>
+                <option value="usa">USA</option>
+                <option value="paris">Paris</option>
+                <option value="Switzerland">Switzerland</option>
+                <option value="japan">Japan</option>
+                <option value="china">China</option>
+                <option value="London">London</option>
+                <option value="Australia">Australia</option>
+            </select>
+            </fieldset>
+            <h2>---------------CONTACT INFORMATION---------------</h2>
+            <fieldset>
+                <legend>contact</legend>
+            <label for="address">Street/Unit/Blog/Village:</label>
+            <textarea name="address" cols="170"></textarea> <br><br>
+            <label for="mobile">Mobile:</label>
+            <input type="tel" id="mobile" name="mobile" placeholder="123-456-7890" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="password" required> 
+            <label for="wapp">Whatsapp No:</label>
+            <input type="tel" id="wapp" name="wapp" required>
+            </fieldset>
+            <h2>--------------------FAMILY BACKGROUND---------------------</h2>
+            <fieldset>
+                <legend>family</legend>
+            <label for="ftname">Father Name:</label>
+            <input type="text" id="ftname" name="ftname" required>
+            <label for="ftplace">Father Birthplace:</label>
+            <input type="text" id="ftplace" name="ftplace"> <br><br>
+            <label for="mtname">Mother Name</label>
+            <input type="text" id="mtname" name="mtname" required>
+            <label for="mtplace">Mother Birthplace</label>
+            <input type="text" id="mtplace" name="mtplace">
+            </fieldset>
+            <h2>----------------OTHER INFORMATION---------------</h2>
+            <fieldset>
+                <legend>other</legend>
+            <label for="education">Education Attainment</label>
+            <select id="education" name="education">
+                <option value="ssc">ssc</option>
+                <option value="inter">Intermediate</option>
+                <option value="ugraduate">Under Graduate</option>
+                <option value="pgraduate">Post Graduate</option>
+                <option value="phd">PHD</option>
+            </select>
+            <label for="occ">Occupation</label>
+            <select id="occ" name="occ">
+                <option value="self employed">Self employed</option>
+                <option value="business">business</option>
+                <option value="gov">government employee</option>
+                <option value="private">Private employee</option>
+                <option value="focc">family Occupation</option>
+            </select>
+            <label for="religion">Religion</label>
+            <select id="religion" name="religion">
+                <option value="islam">Islam</option>
+                <option value="hinduism">Hinduism</option>
+                <option value="christianity">Christianity</option>
+                <option value="buddism">Buddism</option>
+                <option value="jainism">Jainism</option>
+            </select> 
+            <label for="idmarks">Identification marks</label>
+            <input type="text" id="idmarks" name="idmarks"> 
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" min="20" max="60"><br><br>
+            <label for="height">Height:</label>
+            <input type="range" id="height" name="height" min="4" max="6">
+            <label for="resume">Resume:</label>
+            <input type="file" id="resume" name="upload"> <br><br>
+            <label for="complextion">Complextion:</label> <br>
+            <input type="radio" id="fair" name="complextion" value="Fair"> 
+            <label for="fair">Fair</label> <br>
+            <input type="radio" id="medium" name="complextion" value="Medium"> 
+            <label for="medium">Medium</label> <br>
+            <input type="radio" id="tanbrown" name="complextion" value="Tan Brown"> 
+            <label for="tanbrown">Tan Brown</label> <br>
+            <input type="radio" id="blackbrown" name="complextion" value="Black Brown"> 
+            <label for="blackbrown">Black brown</label> <br> <br>
+            <label for="lang">Languages known:</label>
+            <input type="checkbox" id="lang" name="language" value="Telugu">
+            <label for="lang">Telugu</label>
+            <input type="checkbox" id="lang" name="language" value="Hindi">
+            <label for="lang">Hindi</label>
+            <input type="checkbox" id="lang" name="language" value="Enlish">
+            <label for="lang">English</label>
+            <input type="checkbox" id="lang" name="language" value="Marathi">
+            <label for="lang">Marathi</label> <br>
+            <label for="favcolor">Select your favorite color:</label>
+            <input type="color" id="favcolor" name="favcolor">
+            <label for="homepage">Add your homepage:</label>
+            <input type="url" id="homepage" name="homepage">
+            </fieldset><br><br>
+            <input type="button" onclick="alert('your data is recorded')" value="RECHECK">
+            <input type="submit" value="SUBMIT">
+            <input type="reset"  value="RESET">
+            <input type="image" src="/ok.jpg" alt="submit" height="20" width="20">
+            <input type="submit" formaction="/action.php" value="submit as student">
+           </form>
+    </body>
+</html>

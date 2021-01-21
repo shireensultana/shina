@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <style>
+ table,th,td{
+     border:2px solid red;
+     border-collapse:collapse;
+ }
+ th,td{
+     padding:25px;
+     text-align:center;
+ }
+ table{
+     border-spacing:5px;
+ }
+#shina{
+    background-color:#f13c3f;
+    width:50%;
+}
+</style>
+</head>
+ <body>
+  <table style="width:100%">
+  <caption>Marks Sheet</caption>
+    <tr>
+    <th>Name</th>
+    <th>Subject</th>
+    <th>marks</th>
+    </tr>
+    <tr>
+    <td>shina</td>
+    <td>html</td>
+    <td>90</td>
+    </tr>
+    <tr>
+    <td>shireen</td>
+    <td>dbms</td>
+    <td>80</td>
+    </tr>
+    <tr>
+    <td>sultana</td>
+    <td>os</td>
+    <td>70</td>
+    </tr>
+  </table>
+
+  <table id="shina">
+  <caption>Information</caption>
+  <tr>
+  <th>Address</th>
+  <th>mobile</th>
+  <th>age</th>
+  </tr>
+  <tr>
+  <td>hyderabad</td>
+  <td>7396933402</td>
+  <td>22</td>
+  </tr>
+  <tr>
+  <td>Nizamabad</td>
+  <td>9963001179</td>
+  <td>21</td>
+  </tr>
+  <tr>
+  <td>Delhi</td>
+  <td>7386318354</td>
+  <td>20</td>
+  </tr>
+  </table>
+
+  <table style="width:50%">
+    <caption>mobile</caption>
+    <tr>
+        <th>Name</th>
+        <td>shireen sultana</td>
+    </tr>
+    <tr>
+      <th rowspan="2">mobile numbers</th>
+      <td>7396933402</td>
+    </tr>
+    <tr>
+      <td>9963001179</td>
+    </tr>
+</table>
+<table style="width:50%;">
+    <caption>Address</caption>
+    <tr>
+        <th>Name</th>
+        <th colspan="2">address</th>
+    </tr>
+    <tr>
+        <td>hyderabad</td>
+        <td>Nizamabad</td>
+        <td>Delhi</td>   
+    </tr>
+  </table>
+  </body>
+  </html>

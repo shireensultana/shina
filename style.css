@@ -1,0 +1,9 @@
+.{
+    box-sizing: border-box;
+}
+
+.images{
+    float: left;
+    width: 25%;
+    padding: 3px;
+}
