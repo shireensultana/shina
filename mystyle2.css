@@ -1,0 +1,53 @@
+*/{
+    box-sizing: border-box;
+}
+.logo{
+    display:inline;
+   opacity: 1;
+    width: 50%;
+   font: normal normal normal 40px 'poppins';
+  
+}
+.sss{
+    display: inline;
+    width: 50%;
+    font: normal normal normal 30px 'poppins';
+}
+.head{
+    padding: 51px 139px;
+}
+.nav{
+    display: inline-block;
+    float: right;
+    margin: 0;
+    font: normal normal normal 35px 'poppins';
+    word-spacing: 20px;
+}
+.nav-list{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+.fe{
+    float: right;
+    padding: 10px 100px 100px 100px;
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+}
+p{
+    float: left;
+    width: 30%;
+    display: inline-block;
+    padding:50px 139px;
+}
+h1, h2{
+    text-align: center;
+    font: normal normal bold 'poppins';
+    color: #071641;
+}
+.we{
+    float: left;
+    width: 50%;
+    font: normal normal 600 50px 'poppins';
+}
