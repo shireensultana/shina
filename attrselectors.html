@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>attribute selectors</title>
+        <style>
+            .html{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            .html-css{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            .java{
+                font-family: cursive;
+            }
+            a[target=_blank]{
+                color: red;
+            }
+            img[title~="malik"]{
+                border: 3px solid black;
+            }
+           [class|=html]{
+               color: blue;
+           }
+           [class$="css"]{
+               background-color: pink;
+           }
+
+        </style>
+    </head>
+    <body>
+        <a href="http://www.disney.com" target="_blank">disney.com</a>
+        <a href="http://www.wikipedia.org" target="_top">wikipedia.org</a>
+        <img src="./images/ferozkhan.jpg" title="khan" width="200px" height="200px">
+        <img src="./images/armanmalik.jpg" title="malik" width="200px" height="200px">
+        <img src="./images/Amaal-Malik-.webp" title="malik" width="200px" height="200px">
+        <h1 class="html">html</h1>
+        <h1 class="html-css">css</h1>
+        <h1 class="java">JavaScript</h1>
+        
+    </body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            counters
+        </title>
+        <style>
+              body {
+                 counter-reset: chapter;
+                }
+                h1 {
+                 counter-reset: subchapter;
+                }
+               h1::before {
+                 counter-increment:chapter;
+                 content: "chapter " counter(chapter) ": ";
+                }
+                h2::before{
+                    counter-increment: subchapter;
+                    content: counter(chapter) "."counter(subchapter) ":";
+                }
+
+              
+
+        </style>
+    </head>
+    <body>
+        <h1>Using CSS Counters:</h1>
+        <h2>HTML Tutorial</h2>
+        <h2>CSS Tutorial</h2>
+        <h2>JavaScript Tutorial</h2>
+        <h1>HTML tutorials:</h1>
+        <h2>HTML Tutorial</h2>
+        <h2>CSS Tutorial</h2>
+        <h1>Scripting tutorials:</h1>
+        <h2>JavaScript</h2>
+        <h2>VBScript</h2>
+        <h1>XML tutorials:</h1>
+        <h2>XML</h2>
+        <h2>XSL</h2>
+
+
+  
+    </body>
+</html>

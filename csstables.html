@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>table</title>
+        <style>
+             table,th,td{
+                border: 2px solid black;
+                width: 60%;
+                height: 50%;
+                text-align: left;
+                vertical-align: bottom;
+                padding: 15px;
+            }
+            table.css{
+                border-collapse: collapse;
+                width: 100%;
+                height: 50%;
+                text-align: center;
+                vertical-align: middle;
+                padding: 10px;
+            }
+            tr:hover{
+                background-color: darkgray;
+            }
+            tr:nth-child(even){
+                background-color:skyblue;
+            }
+            th{
+                background-color: pink;
+            }
+        </style>
+     
+    </head>
+    <body>
+        <div style="overflow-x: auto;">
+        <table>
+            <caption>Marks Sheet</caption>
+              <tr>
+              <th>Name</th>
+              <th>Subject</th>
+              <th>marks</th>
+              </tr>
+              <tr>
+              <td>shina</td>
+              <td>html</td>
+              <td>90</td>
+              </tr>
+              <tr>
+              <td>shireen</td>
+              <td>dbms</td>
+              <td>80</td>
+              </tr>
+              <tr>
+              <td>sultana</td>
+              <td>os</td>
+              <td>70</td>
+              </tr>
+            </table>
+          
+            <table >
+            <caption>Information</caption>
+            <tr>
+            <th>Address</th>
+            <th>mobile</th>
+            <th>age</th>
+            </tr>
+            <tr>
+            <td>hyderabad</td>
+            <td>0000000000</td>
+            <td>22</td>
+            </tr>
+            <tr>
+            <td>Nizamabad</td>
+            <td>0000000000</td>
+            <td>21</td>
+            </tr>
+            <tr>
+            <td>Delhi</td>
+            <td>0909090909</td>
+            <td>20</td>
+            </tr>
+            </table>
+          
+            <table class="css" >
+                <caption>Information</caption>
+                <tr>
+                <th>Address</th>
+                <th>mobile</th>
+                <th>age</th>
+                </tr>
+                <tr>
+                <td>hyderabad</td>
+                <td>1234567890</td>
+                <td>22</td>
+                </tr>
+                <tr>
+                <td>Nizamabad</td>
+                <td>8087654329</td>
+                <td>21</td>
+                </tr>
+                <tr>
+                <td>Delhi</td>
+                <td>09876543</td>
+                <td>20</td>
+                </tr>
+                </table>
+             </div>   
+            </body>
+              
+          
+    </body>
+</html>

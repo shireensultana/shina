@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>opacity</title>
+        <style>
+            img{
+                opacity: 0.5;
+                width: 200px;
+                height: 200px;
+            }
+            img:hover{
+                opacity: 1.0;
+            }
+            p{
+                background-color: pink;
+                padding: 10px;
+            }
+            p.html{
+                opacity: 0.1;
+            }
+            p.css{
+                opacity: 0.5;
+            }
+            p.java{
+                opacity: 1.5;
+            }
+            div.bg{
+                background: url('./images/armanmalik.jpg') repeat ;
+                border: 2px solid black;
+                }
+             div.trans{
+                margin: 30px;
+                background-color: #ffffff;
+                border: 1px solid black;
+                opacity: 0.6;
+             }   
+             div.trans p {
+                margin: 5%;
+                font-weight: bold;
+                color: #000000;
+             }
+        </style>
+    </head>
+    <body>
+        <img src="./images/anumalik.jpg">
+        <img src="./images/armanmalik.jpg">
+        <img src="./images/Amaal-Malik-.webp">
+        <p class="html">html</p>
+        <p class="css">css</p>
+        <p class="java">JavaScript</p>
+        <div class="bg">
+        <div class="trans">
+            <p>transparent box</p>
+        </div>
+    </div>
+    </body>
+</html>

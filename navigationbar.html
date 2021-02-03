@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>navigation bar</title>
+        <style>
+            ul{
+                list-style-type: none;
+                padding:0px;
+                margin: 0px;
+                width: 200px;
+                background-color: lightgray;
+                text-align: center;
+                border: 1px solid black;
+                position: fixed;
+                height: 500px;
+             }
+             
+            li a{
+                display: block;
+                color:black;
+                padding: 5px 10px;
+                text-decoration: none;
+                border-bottom: 1px solid black;
+            }
+           
+            li a:hover{
+                background-color:#555;
+                color: black;
+            }
+            li a:active{
+                background-color: blue;
+                color: white;
+            }
+             </style>
+    </head>
+    <body>
+        <ul>
+            <li><a href="./lists.html">home</a></li>
+            <li><a href="./opacity.html">html</a></li>
+            <li><a href="./pseudo.html">css</a></li>
+            <li><a href="./table.html">JavaScript</a></li>
+           </ul>
+           <div style="margin-left:25%;padding:1px 16px;height:1000px;">
+            <h2>Fixed Full-height Side Nav</h2>
+            <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
+            <p>Notice that this div element has a left margin of 25%. This is because 
+                the side navigation is set to 25% width. If you remove the margin, the
+                 sidenav will overlay/sit on top of this div.</p>
+            <p>Also notice that we have set overflow:auto to sidenav. This will add
+                 a scrollbar when the sidenav is too long (for example if it has over 50
+                  links inside of it).</p>
+          </div>     
+          </body>
+</html> 
